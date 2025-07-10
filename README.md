@@ -28,6 +28,8 @@ A modern AI-powered wellness coach built with Python, Tkinter, and OpenAI APIs. 
 ### 1. Clone the repo
 
 git clone https://github.com/your-username/wellness-coach-chatbot.git
+
+
 cd wellness-coach-chatbot
 
 ### 2. how to run
