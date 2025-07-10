@@ -43,6 +43,6 @@ If you want to send a message by talking, feel free to press the "Record" button
 
 If you want the bot to answer you by talking, tick the "is_talk" button.
 
-You can set the time(second) for recording your audio by RECODE_SECONDS, which is set to 5 by default.
+You can set the time(second) for recording your audio by RECODE_SECONDS, which is set to 8 by default.
 
 Enjoy your chat with the wellness coach, have a good time!
