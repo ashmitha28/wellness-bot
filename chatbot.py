@@ -1,11 +1,16 @@
+
 from tkinter import *
+
 from tqdm import tqdm
+from playsound import playsound
 import openai
 import logging as log
-import wave, pyaudio
-import pyttsx3
-import sys
 
+import wave, pyaudio
+
+import pyttsx3
+
+import sys
 
 log.basicConfig(filename='openai-history.log', encoding='utf-8', level=log.DEBUG)
 openai.api_key = "sk-" # replace it with your api key
@@ -15,12 +20,13 @@ messages=[]
 
 RATE = 16000
 FORMAT = pyaudio.paInt16
-CHANNELS = 2
+CHANNELS = 1
 CHUNK = 1024
 RECODE_SECONDS = 8 
 
 
-engine = pyttsx3.init()                       
+engine = pyttsx3.init()     
+print("pyttsc initate")                  
 engine.setProperty('rate', 180)            
 voices = engine.getProperty('voices') 
 engine.setProperty('voice',voices[0].id)      
@@ -120,12 +126,12 @@ def delete():
     ChatWindow.delete("0.0", END)
 
 def exit():
-    sys.exit(0)
     base.destroy()
+    sys.exit(0)
 
 
 if __name__ == "__main__":
-    
+    print("launch")
     base = Tk()
     base.title("ChatBot V1.0")
     base.geometry("600x500")
