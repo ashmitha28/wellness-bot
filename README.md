@@ -27,9 +27,9 @@ A modern AI-powered wellness coach built with Python, Tkinter, and OpenAI APIs. 
 
 ### 1. Clone the repo
 
-```bash
 git clone https://github.com/your-username/wellness-coach-chatbot.git
 cd wellness-coach-chatbot
+
 ### 2. how to run
 You can run the app locally by running python chatbot.py.
 
@@ -43,5 +43,4 @@ If you want the bot to answer you by talking, tick the "is_talk" button.
 
 You can set the time(second) for recording your audio by RECODE_SECONDS, which is set to 5 by default.
 
-Enjoy your chat with gpt, have a good time!
-
+Enjoy your chat with the wellness coach, have a good time!
