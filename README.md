@@ -27,7 +27,7 @@ A modern AI-powered wellness coach built with Python, Tkinter, and OpenAI APIs. 
 
 ### 1. Clone the repo
 
-git clone git@github.com:ashmitha28/wellness-bot.git
+git clone https://github.com/ashmitha28/wellness-bot.git
 
 
 cd wellness-coach-chatbot
@@ -41,7 +41,7 @@ If you want to send a message by typing, feel free to type any questions in the 
 
 If you want to send a message by talking, feel free to press the "Record" button and ask your question.
 
-If you want the bot to answer you by talking, tick the "is_talk" button.
+If you want the bot to answer you by talking, tick the "Voie output" button.
 
 You can set the time(second) for recording your audio by RECODE_SECONDS, which is set to 8 by default.
 
