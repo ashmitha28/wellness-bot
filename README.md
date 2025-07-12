@@ -1,4 +1,4 @@
-# wellness-bot
+# Wellness-bot
 A modern AI-powered wellness coach built with Python, Tkinter, and OpenAI APIs. This desktop app supports both text and voice input/output, offering personalized health and wellness conversations.
 
 ---
